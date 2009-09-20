@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iDzienniczekAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iDzienniczekAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		E105237C0E7041A600CAA828 /* PrzedmiotDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E105237B0E7041A600CAA828 /* PrzedmiotDetailView.m */; };
+		E107DD350E8AB694001C48E3 /* Migration.m in Sources */ = {isa = PBXBuildFile; fileRef = E107DD340E8AB694001C48E3 /* Migration.m */; };
+		E107DDBD0E8ABF76001C48E3 /* migrate.idm in Resources */ = {isa = PBXBuildFile; fileRef = E107DD780E8ABC1B001C48E3 /* migrate.idm */; };
+		E11304AB0E4F5AAF003A9DE0 /* LekcjaEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11304AA0E4F5AAF003A9DE0 /* LekcjaEditViewController.m */; };
+		E11304AE0E4F5C71003A9DE0 /* DoubleValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E11304AD0E4F5C71003A9DE0 /* DoubleValueCell.m */; };
+		E119FC4A0E6B292C00122765 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E119FC490E6B292C00122765 /* icon.png */; };
+		E11D65E00E4718770086D897 /* Przedmiot.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D65DF0E4718770086D897 /* Przedmiot.m */; };
+		E124FF4E0E4B9EDA0085E935 /* OcenyDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E124FF4D0E4B9EDA0085E935 /* OcenyDetailView.xib */; };
+		E12B8B460E6AA8BC008FC56E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E12B8B450E6AA8BC008FC56E /* settings.png */; };
+		E12DB2540E7C080F00E419A0 /* SredniaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12DB2530E7C080F00E419A0 /* SredniaViewController.m */; };
+		E130A0360E84352200386163 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E130A0350E84352200386163 /* DetailCell.m */; };
+		E13ED1970E718B910074AAA4 /* ConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13ED1960E718B910074AAA4 /* ConfigTableViewController.m */; };
+		E1425CE20E4A4BF50071E2C1 /* OcenyAddControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1425CE10E4A4BF50071E2C1 /* OcenyAddControllerView.m */; };
+		E147B0B50E8C0C0C00BB2F71 /* KontaktyPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E147B0B40E8C0C0C00BB2F71 /* KontaktyPicker.m */; };
+		E148AE8A0E44751E003668BC /* RokEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E148AE890E44751E003668BC /* RokEditTableViewController.m */; };
+		E149AC870E4DC3E500BA7048 /* ocenaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E149AC860E4DC3E500BA7048 /* ocenaCell.m */; };
+		E151C9040E4781E600673BC4 /* PrzedmiotyEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E151C9030E4781E600673BC4 /* PrzedmiotyEditViewController.m */; };
+		E16B4FD60E4DF1B10036A4AF /* SredniaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16B4FD50E4DF1B10036A4AF /* SredniaViewController.xib */; };
+		E17482B20E799BC900EFF27D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E17482B10E799BC900EFF27D /* Localizable.strings */; };
+		E17482BC0E799C2300EFF27D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17482BB0E799C2300EFF27D /* MainWindow.xib */; };
+		E177CD800E813D7F00B86225 /* BackupService.m in Sources */ = {isa = PBXBuildFile; fileRef = E177CD7F0E813D7F00B86225 /* BackupService.m */; };
+		E17A94D90E83FEAD00C5CA72 /* LekcjaEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17A94D80E83FEAD00C5CA72 /* LekcjaEditViewController.xib */; };
+		E180126C0E7EEE4900122ADA /* BackupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E180126B0E7EEE4900122ADA /* BackupViewController.xib */; };
+		E183C7B10E46312F00469A23 /* PrzedmiotyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E183C7B00E46312F00469A23 /* PrzedmiotyTableViewController.m */; };
+		E183ED500E6F0BD800508983 /* Prace.m in Sources */ = {isa = PBXBuildFile; fileRef = E183ED4F0E6F0BD800508983 /* Prace.m */; };
+		E18877670E4882D1006610BF /* Oceny.m in Sources */ = {isa = PBXBuildFile; fileRef = E18877660E4882D1006610BF /* Oceny.m */; };
+		E188FADB0E44540100F0D2C9 /* RokEditTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E188FADA0E44540100F0D2C9 /* RokEditTableViewController.xib */; };
+		E18AEA530E74388F005558E0 /* PraceDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E18AEA520E74388F005558E0 /* PraceDetailView.m */; };
+		E18D29AF0E4E298700735873 /* dniTygodniaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E18D29AE0E4E298700735873 /* dniTygodniaTableViewController.m */; };
+		E1953D7B0E850C5000B98DE2 /* p_high.png in Resources */ = {isa = PBXBuildFile; fileRef = E1953D780E850C5000B98DE2 /* p_high.png */; };
+		E1953D7C0E850C5100B98DE2 /* p_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E1953D790E850C5000B98DE2 /* p_normal.png */; };
+		E1953D7D0E850C5100B98DE2 /* p_veryhigh.png in Resources */ = {isa = PBXBuildFile; fileRef = E1953D7A0E850C5000B98DE2 /* p_veryhigh.png */; };
+		E1953D930E850D8100B98DE2 /* PraceEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1953D920E850D8100B98DE2 /* PraceEditView.xib */; };
+		E1980D520E8681D400195882 /* GradeSystem.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1980D510E8681D400195882 /* GradeSystem.plist */; };
+		E1980D620E86842200195882 /* OcenyAddControllerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1980D610E86842200195882 /* OcenyAddControllerView.xib */; };
+		E19D9AC30E6C64C00027FFDD /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D9AC20E6C64C00027FFDD /* MainTableViewController.m */; };
+		E19D9AC80E6C66060027FFDD /* PraceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D9AC70E6C66060027FFDD /* PraceTableViewController.m */; };
+		E19D9B540E6C6C510027FFDD /* Informacje.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19D9B530E6C6C510027FFDD /* Informacje.xib */; };
+		E19D9B630E6C70E10027FFDD /* InformacjeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D9B620E6C70E10027FFDD /* InformacjeViewController.m */; };
+		E19F2C700E4E4C0900DADC65 /* dzienTygodniaTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19F2C6F0E4E4C0900DADC65 /* dzienTygodniaTableViewController.xib */; };
+		E19F2C740E4E4C5700DADC65 /* dzienTygodniaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F2C730E4E4C5700DADC65 /* dzienTygodniaViewController.m */; };
+		E1B2E3280E6EDE53008333A3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B2E3270E6EDE53008333A3 /* Model.m */; };
+		E1B50AB00E473AE800041979 /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B50AAF0E473AE800041979 /* write.png */; };
+		E1B78AAA0E462A88004BEEB7 /* number_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B78AA80E462A88004BEEB7 /* number_gray.png */; };
+		E1B78AAC0E462A91004BEEB7 /* table_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B78AAB0E462A91004BEEB7 /* table_gray.png */; };
+		E1CE26E00E48DF05007EB27D /* OcenyDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE26DF0E48DF05007EB27D /* OcenyDetailView.m */; };
+		E1D055EE0E4EF88D0007F6E6 /* DzienTygodniaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D055ED0E4EF88D0007F6E6 /* DzienTygodniaCell.m */; };
+		E1D45DC00E43651700B37321 /* dziennik_db.sql in Resources */ = {isa = PBXBuildFile; fileRef = E1D45DBF0E43651700B37321 /* dziennik_db.sql */; };
+		E1D45DCC0E43693500B37321 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D45DCB0E43693500B37321 /* libsqlite3.0.dylib */; };
+		E1D45EAA0E43759D00B37321 /* Rok.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D45EA90E43759D00B37321 /* Rok.m */; };
+		E1DAB8700E4761A800A16720 /* PrzedmiotyEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DAB86F0E4761A800A16720 /* PrzedmiotyEditViewController.xib */; };
+		E1E236570E486120009DB62D /* OcenyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E236560E486120009DB62D /* OcenyTableViewController.m */; };
+		E1E2697E0E726C5D00D21417 /* PraceEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E2697D0E726C5D00D21417 /* PraceEditTableViewController.m */; };
+		E1E648920E4B7B5E00769016 /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E648910E4B7B5E00769016 /* map-pin.png */; };
+		E1EA29400E4F89E500EF2DE3 /* Lekcja.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EA293F0E4F89E500EF2DE3 /* Lekcja.m */; };
+		E1F742360E692BD4006348B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F742350E692BD4006348B6 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iDzienniczekAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDzienniczekAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iDzienniczekAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDzienniczekAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iDzienniczek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDzienniczek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* iDzienniczek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDzienniczek_Prefix.pch; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10523760E703D4F00CAA828 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PraceEditView.xib; sourceTree = "<group>"; };
+		E105237A0E7041A600CAA828 /* PrzedmiotDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrzedmiotDetailView.h; sourceTree = "<group>"; };
+		E105237B0E7041A600CAA828 /* PrzedmiotDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrzedmiotDetailView.m; sourceTree = "<group>"; };
+		E107DD330E8AB694001C48E3 /* Migration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Migration.h; sourceTree = "<group>"; };
+		E107DD340E8AB694001C48E3 /* Migration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Migration.m; sourceTree = "<group>"; };
+		E107DD780E8ABC1B001C48E3 /* migrate.idm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = migrate.idm; sourceTree = "<group>"; };
+		E11304A90E4F5AAF003A9DE0 /* LekcjaEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LekcjaEditViewController.h; sourceTree = "<group>"; };
+		E11304AA0E4F5AAF003A9DE0 /* LekcjaEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LekcjaEditViewController.m; sourceTree = "<group>"; };
+		E11304AC0E4F5C71003A9DE0 /* DoubleValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleValueCell.h; sourceTree = "<group>"; };
+		E11304AD0E4F5C71003A9DE0 /* DoubleValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleValueCell.m; sourceTree = "<group>"; };
+		E119FC490E6B292C00122765 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E11D65DE0E4718770086D897 /* Przedmiot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Przedmiot.h; sourceTree = "<group>"; };
+		E11D65DF0E4718770086D897 /* Przedmiot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Przedmiot.m; sourceTree = "<group>"; };
+		E124FF4D0E4B9EDA0085E935 /* OcenyDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OcenyDetailView.xib; sourceTree = "<group>"; };
+		E1285DC70E866BA200B39297 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/GradeSystem.plist; sourceTree = "<group>"; };
+		E12B8B450E6AA8BC008FC56E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		E12DB2520E7C080F00E419A0 /* SredniaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SredniaViewController.h; sourceTree = "<group>"; };
+		E12DB2530E7C080F00E419A0 /* SredniaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SredniaViewController.m; sourceTree = "<group>"; };
+		E130A0340E84352200386163 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		E130A0350E84352200386163 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		E13ED1950E718B910074AAA4 /* ConfigTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigTableViewController.h; sourceTree = "<group>"; };
+		E13ED1960E718B910074AAA4 /* ConfigTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigTableViewController.m; sourceTree = "<group>"; };
+		E1425CE00E4A4BF50071E2C1 /* OcenyAddControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcenyAddControllerView.h; sourceTree = "<group>"; };
+		E1425CE10E4A4BF50071E2C1 /* OcenyAddControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcenyAddControllerView.m; sourceTree = "<group>"; };
+		E147B0B30E8C0C0C00BB2F71 /* KontaktyPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KontaktyPicker.h; sourceTree = "<group>"; };
+		E147B0B40E8C0C0C00BB2F71 /* KontaktyPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KontaktyPicker.m; sourceTree = "<group>"; };
+		E148AE880E44751E003668BC /* RokEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RokEditTableViewController.h; sourceTree = "<group>"; };
+		E148AE890E44751E003668BC /* RokEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokEditTableViewController.m; sourceTree = "<group>"; };
+		E149AC850E4DC3E500BA7048 /* ocenaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocenaCell.h; sourceTree = "<group>"; };
+		E149AC860E4DC3E500BA7048 /* ocenaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ocenaCell.m; sourceTree = "<group>"; };
+		E151C9020E4781E600673BC4 /* PrzedmiotyEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrzedmiotyEditViewController.h; sourceTree = "<group>"; };
+		E151C9030E4781E600673BC4 /* PrzedmiotyEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrzedmiotyEditViewController.m; sourceTree = "<group>"; };
+		E16B4FD50E4DF1B10036A4AF /* SredniaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SredniaViewController.xib; sourceTree = "<group>"; };
+		E174826C0E7996A600EFF27D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E17482B30E799BCE00EFF27D /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E17482BD0E799C2800EFF27D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = pl.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E177CD7E0E813D7F00B86225 /* BackupService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackupService.h; sourceTree = "<group>"; };
+		E177CD7F0E813D7F00B86225 /* BackupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackupService.m; sourceTree = "<group>"; };
+		E17A94D80E83FEAD00C5CA72 /* LekcjaEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LekcjaEditViewController.xib; sourceTree = "<group>"; };
+		E180126B0E7EEE4900122ADA /* BackupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackupViewController.xib; sourceTree = "<group>"; };
+		E183C7AF0E46312F00469A23 /* PrzedmiotyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrzedmiotyTableViewController.h; sourceTree = "<group>"; };
+		E183C7B00E46312F00469A23 /* PrzedmiotyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrzedmiotyTableViewController.m; sourceTree = "<group>"; };
+		E183ED4E0E6F0BD800508983 /* Prace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prace.h; sourceTree = "<group>"; };
+		E183ED4F0E6F0BD800508983 /* Prace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prace.m; sourceTree = "<group>"; };
+		E18877650E4882D1006610BF /* Oceny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oceny.h; sourceTree = "<group>"; };
+		E18877660E4882D1006610BF /* Oceny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oceny.m; sourceTree = "<group>"; };
+		E188FADA0E44540100F0D2C9 /* RokEditTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RokEditTableViewController.xib; sourceTree = "<group>"; };
+		E18AEA510E74388F005558E0 /* PraceDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraceDetailView.h; sourceTree = "<group>"; };
+		E18AEA520E74388F005558E0 /* PraceDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraceDetailView.m; sourceTree = "<group>"; };
+		E18D29AD0E4E298700735873 /* dniTygodniaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dniTygodniaTableViewController.h; sourceTree = "<group>"; };
+		E18D29AE0E4E298700735873 /* dniTygodniaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dniTygodniaTableViewController.m; sourceTree = "<group>"; };
+		E1953D780E850C5000B98DE2 /* p_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_high.png; sourceTree = "<group>"; };
+		E1953D790E850C5000B98DE2 /* p_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_normal.png; sourceTree = "<group>"; };
+		E1953D7A0E850C5000B98DE2 /* p_veryhigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_veryhigh.png; sourceTree = "<group>"; };
+		E1953D940E850D9500B98DE2 /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = pl.lproj/PraceEditView.xib; sourceTree = "<group>"; };
+		E1980D530E8681DA00195882 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/GradeSystem.plist; sourceTree = "<group>"; };
+		E1980D630E86842700195882 /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = pl.lproj/OcenyAddControllerView.xib; sourceTree = "<group>"; };
+		E19D9AC10E6C64C00027FFDD /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		E19D9AC20E6C64C00027FFDD /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		E19D9AC60E6C66060027FFDD /* PraceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraceTableViewController.h; sourceTree = "<group>"; };
+		E19D9AC70E6C66060027FFDD /* PraceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraceTableViewController.m; sourceTree = "<group>"; };
+		E19D9B530E6C6C510027FFDD /* Informacje.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Informacje.xib; sourceTree = "<group>"; };
+		E19D9B610E6C70E10027FFDD /* InformacjeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformacjeViewController.h; sourceTree = "<group>"; };
+		E19D9B620E6C70E10027FFDD /* InformacjeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformacjeViewController.m; sourceTree = "<group>"; };
+		E19F2C6F0E4E4C0900DADC65 /* dzienTygodniaTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dzienTygodniaTableViewController.xib; sourceTree = "<group>"; };
+		E19F2C720E4E4C5700DADC65 /* dzienTygodniaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dzienTygodniaViewController.h; sourceTree = "<group>"; };
+		E19F2C730E4E4C5700DADC65 /* dzienTygodniaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dzienTygodniaViewController.m; sourceTree = "<group>"; };
+		E1A0A4C20E7860940072F7AC /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E1B2E3260E6EDE53008333A3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		E1B2E3270E6EDE53008333A3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		E1B50AAF0E473AE800041979 /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write.png; sourceTree = "<group>"; };
+		E1B78AA80E462A88004BEEB7 /* number_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_gray.png; sourceTree = "<group>"; };
+		E1B78AAB0E462A91004BEEB7 /* table_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_gray.png; sourceTree = "<group>"; };
+		E1CE26DE0E48DF05007EB27D /* OcenyDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcenyDetailView.h; sourceTree = "<group>"; };
+		E1CE26DF0E48DF05007EB27D /* OcenyDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcenyDetailView.m; sourceTree = "<group>"; };
+		E1D055EC0E4EF88C0007F6E6 /* DzienTygodniaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DzienTygodniaCell.h; sourceTree = "<group>"; };
+		E1D055ED0E4EF88D0007F6E6 /* DzienTygodniaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DzienTygodniaCell.m; sourceTree = "<group>"; };
+		E1D45DBF0E43651700B37321 /* dziennik_db.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = dziennik_db.sql; sourceTree = "<group>"; };
+		E1D45DCB0E43693500B37321 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.0.dylib; sourceTree = "<group>"; };
+		E1D45EA80E43759D00B37321 /* Rok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rok.h; sourceTree = "<group>"; };
+		E1D45EA90E43759D00B37321 /* Rok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rok.m; sourceTree = "<group>"; };
+		E1DAB86F0E4761A800A16720 /* PrzedmiotyEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrzedmiotyEditViewController.xib; sourceTree = "<group>"; };
+		E1E236550E486120009DB62D /* OcenyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OcenyTableViewController.h; sourceTree = "<group>"; };
+		E1E236560E486120009DB62D /* OcenyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OcenyTableViewController.m; sourceTree = "<group>"; };
+		E1E2365E0E486657009DB62D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/OcenyAddControllerView.xib; sourceTree = "<group>"; };
+		E1E2697C0E726C5D00D21417 /* PraceEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraceEditTableViewController.h; sourceTree = "<group>"; };
+		E1E2697D0E726C5D00D21417 /* PraceEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraceEditTableViewController.m; sourceTree = "<group>"; };
+		E1E648910E4B7B5E00769016 /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-pin.png"; sourceTree = "<group>"; };
+		E1EA293E0E4F89E500EF2DE3 /* Lekcja.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lekcja.h; sourceTree = "<group>"; };
+		E1EA293F0E4F89E500EF2DE3 /* Lekcja.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lekcja.m; sourceTree = "<group>"; };
+		E1F742350E692BD4006348B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				E1D45DCC0E43693500B37321 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E19D9AC40E6C64C70027FFDD /* Custom Classes */,
+				E1C7C9560E4F7761001BFFB2 /* Cells */,
+				E183C7AD0E46310000469A23 /* Controllers */,
+				E1D45EA70E43757000B37321 /* Model */,
+				1D3623240D0F684500981E51 /* iDzienniczekAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iDzienniczekAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iDzienniczek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4CEBB0E4344B3004BB1C4 /* Data */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* iDzienniczek_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1980D510E8681D400195882 /* GradeSystem.plist */,
+				E17482BB0E799C2300EFF27D /* MainWindow.xib */,
+				E19D9B290E6C69C10027FFDD /* Prace */,
+				E18D29A50E4E289300735873 /* Plan Lekcji */,
+				E1E236500E485FDC009DB62D /* Oceny */,
+				E183C7A80E4630B500469A23 /* Przedmioty */,
+				E15B92800E461D4C003D58FC /* Images */,
+				E148AE5A0E44728E003668BC /* Ustawienia */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				E17482B10E799BC900EFF27D /* Localizable.strings */,
+				E107DD780E8ABC1B001C48E3 /* migrate.idm */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D45DCB0E43693500B37321 /* libsqlite3.0.dylib */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12DB2510E7C07F600E419A0 /* Średnia */ = {
+			isa = PBXGroup;
+			children = (
+				E12DB2520E7C080F00E419A0 /* SredniaViewController.h */,
+				E12DB2530E7C080F00E419A0 /* SredniaViewController.m */,
+			);
+			name = "Średnia";
+			sourceTree = "<group>";
+		};
+		E148AE5A0E44728E003668BC /* Ustawienia */ = {
+			isa = PBXGroup;
+			children = (
+				E19D9B520E6C6C420027FFDD /* O Programie */,
+				E188FADA0E44540100F0D2C9 /* RokEditTableViewController.xib */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				E180126B0E7EEE4900122ADA /* BackupViewController.xib */,
+			);
+			name = Ustawienia;
+			sourceTree = "<group>";
+		};
+		E148AE650E4473A1003668BC /* Ustawienia */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				E148AE880E44751E003668BC /* RokEditTableViewController.h */,
+				E148AE890E44751E003668BC /* RokEditTableViewController.m */,
+				E19D9B610E6C70E10027FFDD /* InformacjeViewController.h */,
+				E19D9B620E6C70E10027FFDD /* InformacjeViewController.m */,
+				E13ED1950E718B910074AAA4 /* ConfigTableViewController.h */,
+				E13ED1960E718B910074AAA4 /* ConfigTableViewController.m */,
+			);
+			name = Ustawienia;
+			sourceTree = "<group>";
+		};
+		E15B92800E461D4C003D58FC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E1953D780E850C5000B98DE2 /* p_high.png */,
+				E1953D790E850C5000B98DE2 /* p_normal.png */,
+				E1953D7A0E850C5000B98DE2 /* p_veryhigh.png */,
+				E119FC490E6B292C00122765 /* icon.png */,
+				E12B8B450E6AA8BC008FC56E /* settings.png */,
+				E1F742350E692BD4006348B6 /* Default.png */,
+				E1E648910E4B7B5E00769016 /* map-pin.png */,
+				E1B50AAF0E473AE800041979 /* write.png */,
+				E1B78AAB0E462A91004BEEB7 /* table_gray.png */,
+				E1B78AA80E462A88004BEEB7 /* number_gray.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E183C7A80E4630B500469A23 /* Przedmioty */ = {
+			isa = PBXGroup;
+			children = (
+				E1DAB86F0E4761A800A16720 /* PrzedmiotyEditViewController.xib */,
+				E16B4FD50E4DF1B10036A4AF /* SredniaViewController.xib */,
+			);
+			name = Przedmioty;
+			sourceTree = "<group>";
+		};
+		E183C7AD0E46310000469A23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E19D9AC50E6C65EA0027FFDD /* Prace */,
+				E18D29AC0E4E296B00735873 /* Plan Lekcji */,
+				E1E236540E486106009DB62D /* Oceny */,
+				E183C7AE0E46310A00469A23 /* Przedmioty */,
+				E148AE650E4473A1003668BC /* Ustawienia */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E183C7AE0E46310A00469A23 /* Przedmioty */ = {
+			isa = PBXGroup;
+			children = (
+				E12DB2510E7C07F600E419A0 /* Średnia */,
+				E183C7AF0E46312F00469A23 /* PrzedmiotyTableViewController.h */,
+				E183C7B00E46312F00469A23 /* PrzedmiotyTableViewController.m */,
+				E151C9020E4781E600673BC4 /* PrzedmiotyEditViewController.h */,
+				E151C9030E4781E600673BC4 /* PrzedmiotyEditViewController.m */,
+				E105237A0E7041A600CAA828 /* PrzedmiotDetailView.h */,
+				E105237B0E7041A600CAA828 /* PrzedmiotDetailView.m */,
+				E147B0B30E8C0C0C00BB2F71 /* KontaktyPicker.h */,
+				E147B0B40E8C0C0C00BB2F71 /* KontaktyPicker.m */,
+			);
+			name = Przedmioty;
+			sourceTree = "<group>";
+		};
+		E18D29A50E4E289300735873 /* Plan Lekcji */ = {
+			isa = PBXGroup;
+			children = (
+				E19F2C6F0E4E4C0900DADC65 /* dzienTygodniaTableViewController.xib */,
+				E17A94D80E83FEAD00C5CA72 /* LekcjaEditViewController.xib */,
+			);
+			name = "Plan Lekcji";
+			sourceTree = "<group>";
+		};
+		E18D29AC0E4E296B00735873 /* Plan Lekcji */ = {
+			isa = PBXGroup;
+			children = (
+				E18D29AD0E4E298700735873 /* dniTygodniaTableViewController.h */,
+				E18D29AE0E4E298700735873 /* dniTygodniaTableViewController.m */,
+				E19F2C720E4E4C5700DADC65 /* dzienTygodniaViewController.h */,
+				E19F2C730E4E4C5700DADC65 /* dzienTygodniaViewController.m */,
+				E11304A90E4F5AAF003A9DE0 /* LekcjaEditViewController.h */,
+				E11304AA0E4F5AAF003A9DE0 /* LekcjaEditViewController.m */,
+			);
+			name = "Plan Lekcji";
+			sourceTree = "<group>";
+		};
+		E19D9AC40E6C64C70027FFDD /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E19D9AC10E6C64C00027FFDD /* MainTableViewController.h */,
+				E19D9AC20E6C64C00027FFDD /* MainTableViewController.m */,
+				E1B2E3260E6EDE53008333A3 /* Model.h */,
+				E1B2E3270E6EDE53008333A3 /* Model.m */,
+				E177CD7E0E813D7F00B86225 /* BackupService.h */,
+				E177CD7F0E813D7F00B86225 /* BackupService.m */,
+				E107DD330E8AB694001C48E3 /* Migration.h */,
+				E107DD340E8AB694001C48E3 /* Migration.m */,
+			);
+			name = "Custom Classes";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E19D9AC50E6C65EA0027FFDD /* Prace */ = {
+			isa = PBXGroup;
+			children = (
+				E19D9AC60E6C66060027FFDD /* PraceTableViewController.h */,
+				E19D9AC70E6C66060027FFDD /* PraceTableViewController.m */,
+				E1E2697C0E726C5D00D21417 /* PraceEditTableViewController.h */,
+				E1E2697D0E726C5D00D21417 /* PraceEditTableViewController.m */,
+				E18AEA510E74388F005558E0 /* PraceDetailView.h */,
+				E18AEA520E74388F005558E0 /* PraceDetailView.m */,
+			);
+			name = Prace;
+			sourceTree = "<group>";
+		};
+		E19D9B290E6C69C10027FFDD /* Prace */ = {
+			isa = PBXGroup;
+			children = (
+				E1953D920E850D8100B98DE2 /* PraceEditView.xib */,
+			);
+			name = Prace;
+			sourceTree = "<group>";
+		};
+		E19D9B520E6C6C420027FFDD /* O Programie */ = {
+			isa = PBXGroup;
+			children = (
+				E19D9B530E6C6C510027FFDD /* Informacje.xib */,
+			);
+			name = "O Programie";
+			sourceTree = "<group>";
+		};
+		E1C4CEBB0E4344B3004BB1C4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1D45DBF0E43651700B37321 /* dziennik_db.sql */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		E1C7C9560E4F7761001BFFB2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E11304AC0E4F5C71003A9DE0 /* DoubleValueCell.h */,
+				E11304AD0E4F5C71003A9DE0 /* DoubleValueCell.m */,
+				E1D055EC0E4EF88C0007F6E6 /* DzienTygodniaCell.h */,
+				E1D055ED0E4EF88D0007F6E6 /* DzienTygodniaCell.m */,
+				E149AC850E4DC3E500BA7048 /* ocenaCell.h */,
+				E149AC860E4DC3E500BA7048 /* ocenaCell.m */,
+				E130A0340E84352200386163 /* DetailCell.h */,
+				E130A0350E84352200386163 /* DetailCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E1D45EA70E43757000B37321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1D45EA80E43759D00B37321 /* Rok.h */,
+				E1D45EA90E43759D00B37321 /* Rok.m */,
+				E11D65DE0E4718770086D897 /* Przedmiot.h */,
+				E11D65DF0E4718770086D897 /* Przedmiot.m */,
+				E18877650E4882D1006610BF /* Oceny.h */,
+				E18877660E4882D1006610BF /* Oceny.m */,
+				E1EA293E0E4F89E500EF2DE3 /* Lekcja.h */,
+				E1EA293F0E4F89E500EF2DE3 /* Lekcja.m */,
+				E183ED4E0E6F0BD800508983 /* Prace.h */,
+				E183ED4F0E6F0BD800508983 /* Prace.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E1E236500E485FDC009DB62D /* Oceny */ = {
+			isa = PBXGroup;
+			children = (
+				E124FF4D0E4B9EDA0085E935 /* OcenyDetailView.xib */,
+				E1980D610E86842200195882 /* OcenyAddControllerView.xib */,
+			);
+			name = Oceny;
+			sourceTree = "<group>";
+		};
+		E1E236540E486106009DB62D /* Oceny */ = {
+			isa = PBXGroup;
+			children = (
+				E1E236550E486120009DB62D /* OcenyTableViewController.h */,
+				E1E236560E486120009DB62D /* OcenyTableViewController.m */,
+				E1CE26DE0E48DF05007EB27D /* OcenyDetailView.h */,
+				E1CE26DF0E48DF05007EB27D /* OcenyDetailView.m */,
+				E1425CE00E4A4BF50071E2C1 /* OcenyAddControllerView.h */,
+				E1425CE10E4A4BF50071E2C1 /* OcenyAddControllerView.m */,
+			);
+			name = Oceny;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iDzienniczek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iDzienniczek" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDzienniczek;
+			productName = iDzienniczek;
+			productReference = 1D6058910D05DD3D006BFB54 /* iDzienniczek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iDzienniczek" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				Polish,
+				pl,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iDzienniczek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E107DDBD0E8ABF76001C48E3 /* migrate.idm in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				E1D45DC00E43651700B37321 /* dziennik_db.sql in Resources */,
+				E188FADB0E44540100F0D2C9 /* RokEditTableViewController.xib in Resources */,
+				E1B78AAA0E462A88004BEEB7 /* number_gray.png in Resources */,
+				E1B78AAC0E462A91004BEEB7 /* table_gray.png in Resources */,
+				E1B50AB00E473AE800041979 /* write.png in Resources */,
+				E1DAB8700E4761A800A16720 /* PrzedmiotyEditViewController.xib in Resources */,
+				E1980D620E86842200195882 /* OcenyAddControllerView.xib in Resources */,
+				E1E648920E4B7B5E00769016 /* map-pin.png in Resources */,
+				E124FF4E0E4B9EDA0085E935 /* OcenyDetailView.xib in Resources */,
+				E16B4FD60E4DF1B10036A4AF /* SredniaViewController.xib in Resources */,
+				E19F2C700E4E4C0900DADC65 /* dzienTygodniaTableViewController.xib in Resources */,
+				E1F742360E692BD4006348B6 /* Default.png in Resources */,
+				E12B8B460E6AA8BC008FC56E /* settings.png in Resources */,
+				E119FC4A0E6B292C00122765 /* icon.png in Resources */,
+				E19D9B540E6C6C510027FFDD /* Informacje.xib in Resources */,
+				E1953D930E850D8100B98DE2 /* PraceEditView.xib in Resources */,
+				E17482B20E799BC900EFF27D /* Localizable.strings in Resources */,
+				E17482BC0E799C2300EFF27D /* MainWindow.xib in Resources */,
+				E180126C0E7EEE4900122ADA /* BackupViewController.xib in Resources */,
+				E17A94D90E83FEAD00C5CA72 /* LekcjaEditViewController.xib in Resources */,
+				E1953D7B0E850C5000B98DE2 /* p_high.png in Resources */,
+				E1953D7C0E850C5100B98DE2 /* p_normal.png in Resources */,
+				E1953D7D0E850C5100B98DE2 /* p_veryhigh.png in Resources */,
+				E1980D520E8681D400195882 /* GradeSystem.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iDzienniczekAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				E1D45EAA0E43759D00B37321 /* Rok.m in Sources */,
+				E148AE8A0E44751E003668BC /* RokEditTableViewController.m in Sources */,
+				E183C7B10E46312F00469A23 /* PrzedmiotyTableViewController.m in Sources */,
+				E11D65E00E4718770086D897 /* Przedmiot.m in Sources */,
+				E151C9040E4781E600673BC4 /* PrzedmiotyEditViewController.m in Sources */,
+				E1E236570E486120009DB62D /* OcenyTableViewController.m in Sources */,
+				E18877670E4882D1006610BF /* Oceny.m in Sources */,
+				E1CE26E00E48DF05007EB27D /* OcenyDetailView.m in Sources */,
+				E1425CE20E4A4BF50071E2C1 /* OcenyAddControllerView.m in Sources */,
+				E149AC870E4DC3E500BA7048 /* ocenaCell.m in Sources */,
+				E18D29AF0E4E298700735873 /* dniTygodniaTableViewController.m in Sources */,
+				E19F2C740E4E4C5700DADC65 /* dzienTygodniaViewController.m in Sources */,
+				E1D055EE0E4EF88D0007F6E6 /* DzienTygodniaCell.m in Sources */,
+				E11304AB0E4F5AAF003A9DE0 /* LekcjaEditViewController.m in Sources */,
+				E11304AE0E4F5C71003A9DE0 /* DoubleValueCell.m in Sources */,
+				E1EA29400E4F89E500EF2DE3 /* Lekcja.m in Sources */,
+				E19D9AC30E6C64C00027FFDD /* MainTableViewController.m in Sources */,
+				E19D9AC80E6C66060027FFDD /* PraceTableViewController.m in Sources */,
+				E19D9B630E6C70E10027FFDD /* InformacjeViewController.m in Sources */,
+				E1B2E3280E6EDE53008333A3 /* Model.m in Sources */,
+				E183ED500E6F0BD800508983 /* Prace.m in Sources */,
+				E105237C0E7041A600CAA828 /* PrzedmiotDetailView.m in Sources */,
+				E13ED1970E718B910074AAA4 /* ConfigTableViewController.m in Sources */,
+				E1E2697E0E726C5D00D21417 /* PraceEditTableViewController.m in Sources */,
+				E18AEA530E74388F005558E0 /* PraceDetailView.m in Sources */,
+				E12DB2540E7C080F00E419A0 /* SredniaViewController.m in Sources */,
+				E177CD800E813D7F00B86225 /* BackupService.m in Sources */,
+				E130A0360E84352200386163 /* DetailCell.m in Sources */,
+				E107DD350E8AB694001C48E3 /* Migration.m in Sources */,
+				E147B0B50E8C0C0C00BB2F71 /* KontaktyPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E17482B10E799BC900EFF27D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A0A4C20E7860940072F7AC /* English */,
+				E17482B30E799BCE00EFF27D /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E17482BB0E799C2300EFF27D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E174826C0E7996A600EFF27D /* English */,
+				E17482BD0E799C2800EFF27D /* pl */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E1953D920E850D8100B98DE2 /* PraceEditView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10523760E703D4F00CAA828 /* English */,
+				E1953D940E850D9500B98DE2 /* pl */,
+			);
+			name = PraceEditView.xib;
+			sourceTree = "<group>";
+		};
+		E1980D510E8681D400195882 /* GradeSystem.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1285DC70E866BA200B39297 /* English */,
+				E1980D530E8681DA00195882 /* pl */,
+			);
+			name = GradeSystem.plist;
+			sourceTree = "<group>";
+		};
+		E1980D610E86842200195882 /* OcenyAddControllerView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E2365E0E486657009DB62D /* English */,
+				E1980D630E86842700195882 /* pl */,
+			);
+			name = OcenyAddControllerView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iDzienniczek_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = iDzienniczek;
+				SDKROOT = iphonesimulator2.1;
+				VALID_ARCHS = "armv6 ppc";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iDzienniczek_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = iDzienniczek;
+				PROVISIONING_PROFILE_ALLOWED = NO;
+				PROVISIONING_PROFILE_REQUIRED = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE_ALLOWED = NO;
+				PROVISIONING_PROFILE_REQUIRED = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE_ALLOWED = NO;
+				PROVISIONING_PROFILE_REQUIRED = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iDzienniczek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iDzienniczek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

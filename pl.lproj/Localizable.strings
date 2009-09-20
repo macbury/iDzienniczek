@@ -1,0 +1,74 @@
+﻿"Info" = "Informacja";
+
+/* Setting */
+"School year" = "Rok Szkolny";
+"Break length" = "Czas trwania przerwy";
+"Lesson length" = "Czas trwania lekcji";
+"School days in weekday" = "Dni szkolnych w tygodniu";
+"Add new school year" = "Dodaj nowy rok szkolny";
+
+"Backup" = "Kopia zapasowa bazy";
+"Create backup" = "Utwórz kopię zapasową";
+"Restore backup" = "Przywróć kopię zapasową";
+"Creating database backup..." = "Tworzę kopię zapasową...";
+"Enter Password" = "Podaj hasło";
+"RestoreNotFound" = "Błąd: Kopia bazy nie istnieje!";
+"RestoreFound" = "Przywrócono kopię bazy danych.";
+"Restoring database backup..." = "Przywracam kopię bazy danych...";
+
+"About" = "O programie";
+
+/* Subjects */
+"Subjects" = "Przedmioty";
+
+/* Grades */
+"Grades" = "Oceny";
+
+/* Lessons */
+"Lesson Plan" = "Plan Lekcji";
+
+"Today" = "Dzisiaj";
+"Tomorrow" = "Jutro";
+"Days of week" = "Dni tygodnia";
+"Monday" = "Poniedziałek";
+"Tuesday" = "Wtorek";
+"Wednesday" = "Środa";
+"Thursday" = "Czwartek";
+"Friday" = "Piątek";
+"Saturday" = "Sobota";
+"Sunday" = "Niedziela";
+
+"DayOfMsg" = "Aktualnie jest dzień wolny więc nie ma dzisiaj żadnych lekcji. Zamiast martwić się szkołą wyjdź na miasto lub nabij 70 lv w WoW";
+"ClearNote" = "Czy na pewno chcesz usunąć notatkę?";
+"NewYearNeedMsg" = "Musisz utworzyć nowy rok szkolny! Aby tego dokonać przejdź na zakładkę ustawienia";
+
+"Edit" = "Edytuj";
+
+"Settings" = "Ustawienia";
+"Tasks" = "Prace";
+"Task" = "Praca";
+
+"BlankNote" = "( Brak Notatki )";
+"DueDate" = "Koniec";
+
+"E-Mail this" = "Wyślij zadanie";
+
+"EditTask" = "Edycja Pracy";
+"NewTask" = "Nowa Praca";
+
+"Details" = "Szczegóły";
+
+"Note" = "Notatka";
+"Priority" = "Piorytet";
+"Done" = "Zrobione";
+
+
+"Normal" = "Normalny";
+"High" = "Wysoki";
+"Very High" = "Bardzo Wysoki";
+
+"Yes" = "Tak";
+"No" = "Nie";
+
+"Cancel" = "Anuluj";
+"Delete" = "Usuń";

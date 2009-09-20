@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ForWhat</key>
+	<array>
+		<string>Sprawdzian</string>
+		<string>Test</string>
+		<string>Kartkówka</string>
+		<string>Odpowiedź</string>
+		<string>Praca domowa</string>
+		<string>Praca dodatkowa</string>
+		<string>Praca na lekcji</string>
+		<string>Wypracowanie</string>
+		<string>Projekt</string>
+		<string>Łapówka</string>
+	</array>
+	<key>Grades</key>
+	<array>
+		<string>Niedostateczny</string>
+		<string>Dopuszczający</string>
+		<string>Dostateczny</string>
+		<string>Dobry</string>
+		<string>Bardzo Dobry</string>
+		<string>Celujący</string>
+	</array>
+</dict>
+</plist>

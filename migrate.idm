@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+	CREATE TEMPORARY TABLE plan_lekcji_backup (id integer PRIMARY KEY AUTOINCREMENT UNIQUE,przedmiot_id integer,start time,czas_trwania time, rok_id integer, dzien integer, sala text);
+	INSERT INTO plan_lekcji_backup SELECT * FROM plan_lekcji;
+	DROP TABLE plan_lekcji;
+	CREATE TABLE plan_lekcji (id integer PRIMARY KEY AUTOINCREMENT UNIQUE,przedmiot_id integer,start time,czas_trwania time, rok_id integer, dzien integer, sala text);
+	INSERT INTO plan_lekcji SELECT * FROM plan_lekcji_backup;
+	DROP TABLE plan_lekcji_backup;
+	
+	ALTER TABLE przedmioty ADD COLUMN 'kontakt_id' integer;
+	
+	CREATE TABLE shema (version integer DEFAULT 1);
+	INSERT INTO shema (version) VALUES (1);
+COMMIT;
